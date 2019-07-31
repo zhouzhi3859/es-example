@@ -1,7 +1,7 @@
 {
   "name": "es-example",
   "version": "1.0.0",
-  "description": "[原生js实现call函数](./src/myCall.js)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test:dev": "./node_modules/.bin/gulp",
