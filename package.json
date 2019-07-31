@@ -6,7 +6,7 @@
   "scripts": {
     "test:dev": "./node_modules/.bin/gulp",
     "lint": "eslint --ext .ts,.js .",
-    "test": "nyc --reporter lcov --check-coverage --branches 95 --functions 95 --lines 95 --statements 95 mocha test/**/*.test.js"
+    "test": "nyc --reporter lcov --check-coverage --branches 95 --functions 95 --lines 95 --statements 95 mocha --reporter mochawesome --reporter-options reportDir=reporter,reportFilename=index.html test/**/*.test.js"
   },
   "repository": {
     "type": "git",
