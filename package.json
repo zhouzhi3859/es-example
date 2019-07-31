@@ -1,0 +1,38 @@
+{
+  "name": "es-example",
+  "version": "1.0.0",
+  "description": "[原生js实现call函数](./src/myCall.js)",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "./node_modules/.bin/gulp",
+    "lint": "eslint --ext .ts,.js .",
+    "test": "nyc --reporter lcov --check-coverage --branches 95 --functions 95 --lines 95 --statements 95 mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouzhi3859/es-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouzhi3859/es-example/issues"
+  },
+  "homepage": "https://github.com/zhouzhi3859/es-example#readme",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-babel": "^2.1.1",
+    "@types/node": "^12.6.8",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-egg": "^7.4.1",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^6.0.0",
+    "gulp-watch": "^5.0.1",
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.0.1",
+    "nyc": "^14.1.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.5.3"
+  }
+}
