@@ -1,5 +1,5 @@
 /**
- * @name lib.test
+ * @name example.test
  * @description 占位测试文件
  */
 

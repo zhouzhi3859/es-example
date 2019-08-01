@@ -11,3 +11,6 @@ npm run test
 
 [原生js实现apply函数](./javascript/myApply.js) \
 [原生js实现apply函数测试文件](./test/javascript/myApply.test.js)
+
+[原生js实现bind函数](./javascript/myBind.js) \
+[原生js实现bind函数测试文件](./test/javascript/myBind.test.js)
