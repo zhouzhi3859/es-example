@@ -8,7 +8,7 @@ const mocha = require('gulp-mocha');
 const pathStr = 'test/**/*.js';
 
 gulp.task('watch', () => {
-  gulp.watch([ pathStr, 'javascript/*.js' ], [ 'mocha' ]);
+  gulp.watch([ pathStr, 'javascript/*.js', 'leetcode/*.js' ], [ 'mocha' ]);
 });
 
 gulp.task('mocha', () => {
