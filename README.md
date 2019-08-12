@@ -14,3 +14,6 @@ npm run test
 
 [原生js实现bind函数](./javascript/myBind.js) \
 [原生js实现bind函数测试文件](./test/javascript/myBind.test.js)
+
+[实现无限柯里化](./javascript/currying.js) \
+[实现无限柯里化测试文件](./test/javascript/currying.test.js)
