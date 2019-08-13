@@ -22,6 +22,12 @@ npm run test
 [冒泡排序](./javascript/bubbleSort.js) \
 [冒泡排序测试文件](./test/javascript/bubbleSort.test.js)
 
+[选择排序](./javascript/selectionSort.js) \
+[选择排序测试文件](./test/javascript/selectionSort.test.js)
+
+[归并排序](./javascript/mergeSort.js) \
+[归并排序测试文件](./test/javascript/mergeSort.test.js)
+
 #### leetcode算法
 [两数之和(https://leetcode-cn.com/problems/two-sum)](./leetcode/twoSum.js) \
 [两数之和测试文件](./test/leetcode/twoSum.test.js)

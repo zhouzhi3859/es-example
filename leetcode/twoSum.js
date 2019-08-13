@@ -17,4 +17,5 @@ const twoSum = function(nums, target) {
   }
   return result;
 };
+
 module.exports = twoSum;
