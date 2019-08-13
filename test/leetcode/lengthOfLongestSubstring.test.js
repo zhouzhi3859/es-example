@@ -19,4 +19,7 @@ describe('test lengthOfLongestSubstring.js', function() {
   it('test lengthOfLongestSubstring.js correct situation 4', () => {
     expect(lengthOfLongestSubstring('au')).to.equal(2);
   });
+  it('test lengthOfLongestSubstring.js correct situation 5', () => {
+    expect(lengthOfLongestSubstring('a')).to.equal(1);
+  });
 });
