@@ -19,6 +19,9 @@ npm run test
 [实现无限柯里化](./javascript/currying.js) \
 [实现无限柯里化测试文件](./test/javascript/currying.test.js)
 
+[冒泡排序](./javascript/bubbleSort.js) \
+[冒泡排序测试文件](./test/javascript/bubbleSort.test.js)
+
 #### leetcode算法
 [两数之和(https://leetcode-cn.com/problems/two-sum)](./leetcode/twoSum.js) \
 [两数之和测试文件](./test/leetcode/twoSum.test.js)
