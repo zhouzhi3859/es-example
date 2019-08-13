@@ -22,5 +22,4 @@ const lengthOfLongestSubstring = function(s) {
   }
   return max;
 };
-console.log(lengthOfLongestSubstring('au'));
 module.exports = lengthOfLongestSubstring;
