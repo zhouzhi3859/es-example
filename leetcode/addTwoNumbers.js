@@ -21,3 +21,8 @@ const addTwoNumbers = function(l1, l2, isExceed10 = false) {
   }
   return node;
 };
+
+module.exports = {
+  ListNode,
+  addTwoNumbers,
+};

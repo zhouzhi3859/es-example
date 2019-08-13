@@ -22,3 +22,6 @@ npm run test
 #### leetcode算法
 [两数之和(https://leetcode-cn.com/problems/two-sum)](./leetcode/twoSum.js) \
 [两数之和测试文件](./test/leetcode/twoSum.test.js)
+
+[两数相加(https://leetcode-cn.com/problems/add-two-numbers)](./leetcode/addTwoNumbers.js) \
+[两数相加测试文件](./test/leetcode/addTwoNumbers.test.js)
