@@ -25,3 +25,6 @@ npm run test
 
 [两数相加(https://leetcode-cn.com/problems/add-two-numbers)](./leetcode/addTwoNumbers.js) \
 [两数相加测试文件](./test/leetcode/addTwoNumbers.test.js)
+
+[无重复字符的最长子串(https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)](./leetcode/lengthOfLongestSubstring.js) \
+[无重复字符的最长子串测试文件](./test/leetcode/lengthOfLongestSubstring.test.js)
