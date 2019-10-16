@@ -6,11 +6,14 @@ function myBind(context) {
   }
   context = context || global;
   context.fn = this;
-  return function() {
+  const func = function() {
     const res = context.fn(...args);
     delete context.fn;
     return res;
   };
+  // 修复原型链
+  func.prototype = context.fn.prototype;
+  return func;
 }
 
 // Function.prototype.myBind = myBind;
