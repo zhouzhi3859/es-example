@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "charset": "utf8",
+    "checkJs": false,
+    "declaration": false,
+    "diagnostics": false,
+    "disableSizeLimit": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "listEmittedFiles": true,
+    "listFiles": false,
+    "module": "commonjs",
+    "newLine": "LF",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2017"
+  }
+}

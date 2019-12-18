@@ -4,13 +4,13 @@
  */
 
 const expect = require('chai').expect;
-const currying = require('../../javascript/currying');
+const currying = require('../../es/currying.ts');
 
-describe('test currying.js', function() {
-  it('test currying.js expect correct result', () => {
+describe('test currying.ts', function() {
+  it('test currying.ts expect correct result', () => {
     expect(currying(1, 2)(3) == 6).to.equal(true); // eslint-disable-line
   });
-  it('test currying.js expect incorrect result', () => {
+  it('test currying.ts expect incorrect result', () => {
     expect(currying(1, 2)(3) == 5).to.equal(false); // eslint-disable-line
   });
 });

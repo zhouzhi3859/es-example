@@ -4,10 +4,10 @@
  */
 
 const expect = require('chai').expect;
-const { ListNode, addTwoNumbers } = require('../../leetcode/addTwoNumbers');
+const { ListNode, addTwoNumbers } = require('../../leetcode/addTwoNumbers.ts');
 
-describe('test addTwoNumbers.js', function() {
-  it('test addTwoNumbers.js correct not exceed 10', () => {
+describe('test addTwoNumbers.ts', function() {
+  it('test addTwoNumbers.ts correct not exceed 10', () => {
     const p1 = new ListNode(2);
     p1.next = new ListNode(3);
     p1.next.next = new ListNode(4);
@@ -19,7 +19,7 @@ describe('test addTwoNumbers.js', function() {
     expectResult.next.next = new ListNode(8);
     expect(JSON.stringify(addTwoNumbers(p1, p2))).to.equal(JSON.stringify(expectResult));
   });
-  it('test addTwoNumbers.js correct not exceed 10 another situation 1', () => {
+  it('test addTwoNumbers.ts correct not exceed 10 another situation 1', () => {
     const p1 = new ListNode(2);
     p1.next = new ListNode(3);
     p1.next.next = new ListNode(4);
@@ -30,7 +30,7 @@ describe('test addTwoNumbers.js', function() {
     expectResult.next.next = new ListNode(4);
     expect(JSON.stringify(addTwoNumbers(p1, p2))).to.equal(JSON.stringify(expectResult));
   });
-  it('test addTwoNumbers.js correct not exceed 10 another situation 2', () => {
+  it('test addTwoNumbers.ts correct not exceed 10 another situation 2', () => {
     const p1 = new ListNode(2);
     p1.next = new ListNode(3);
     const p2 = new ListNode(2);
@@ -41,7 +41,7 @@ describe('test addTwoNumbers.js', function() {
     expectResult.next.next = new ListNode(4);
     expect(JSON.stringify(addTwoNumbers(p1, p2))).to.equal(JSON.stringify(expectResult));
   });
-  it('test addTwoNumbers.js correct exceed 10', () => {
+  it('test addTwoNumbers.ts correct exceed 10', () => {
     const p1 = new ListNode(2);
     p1.next = new ListNode(3);
     p1.next.next = new ListNode(4);
@@ -54,7 +54,7 @@ describe('test addTwoNumbers.js', function() {
     expectResult.next.next.next = new ListNode(1);
     expect(JSON.stringify(addTwoNumbers(p1, p2))).to.equal(JSON.stringify(expectResult));
   });
-  it('test addTwoNumbers.js correct exceed 10 another', () => {
+  it('test addTwoNumbers.ts correct exceed 10 another', () => {
     const p1 = new ListNode(2);
     p1.next = new ListNode(3);
     p1.next.next = new ListNode(4);

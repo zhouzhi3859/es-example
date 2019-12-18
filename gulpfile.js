@@ -8,12 +8,12 @@ const mocha = require('gulp-mocha');
 const pathStr = 'test/**/*.js';
 
 gulp.task('watch', () => {
-  gulp.watch([ pathStr, 'javascript/*.js', 'leetcode/*.js' ], [ 'mocha' ]);
+  gulp.watch([ pathStr, 'es/*.ts', 'leetcode/*.ts' ], [ 'mocha', '-r', 'ts-node/register' ]);
 });
 
 gulp.task('mocha', () => {
   return gulp.src(pathStr, { read: false })
-    .pipe(mocha({ reporter: 'spec' }))
+    .pipe(mocha({ reporter: 'spec', register: 'ts-node/register' }))
     .on('error', console.error);
 });
 
