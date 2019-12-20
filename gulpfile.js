@@ -4,8 +4,7 @@
  */
 
 const gulp = require('gulp');
-// const mocha = require('gulp-mocha');
-const mocha = require('gulp-spawn-mocha-nyc');
+const mocha = require('gulp-mocha');
 const pathStr1 = 'test/**/*.js';
 const pathStr2 = 'test/**/*.ts';
 

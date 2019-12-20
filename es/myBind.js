@@ -1,9 +1,6 @@
 
 function myBind(context) {
-  const args = [];
-  for (let i = 1; i < arguments.length; i++) {
-    args.push(arguments[ i ]);
-  }
+  const args = Array.prototype.splice.call(arguments, 1);
   context = context || global;
   context.fn = this;
   const func = function() {
