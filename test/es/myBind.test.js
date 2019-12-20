@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const myBind = require('../../es/myBind.ts');
+const myBind = require('../../es/myBind');
 
 describe('test myBind.ts', function() {
   before(() => {

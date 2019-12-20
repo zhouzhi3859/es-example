@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const mergeSort = require('../../es/mergeSort.ts');
+const mergeSort = require('../../es/mergeSort');
 
 describe('test mergeSort.ts', function() {
   it('test mergeSort.ts expect correct result', () => {

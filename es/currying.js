@@ -3,7 +3,7 @@ function currying() {
   for (const i in arguments) {
     as.push(arguments[ i ]);
   }
-  function midObj() {
+  function midObj(...num) {
     for (const i in arguments) {
       as.push(arguments[ i ]);
     }

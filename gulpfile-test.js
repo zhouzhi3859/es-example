@@ -4,14 +4,10 @@
  */
 
 const gulp = require('gulp');
-// const mocha = require('gulp-mocha');
-const mocha = require('gulp-spawn-mocha-nyc');
+const mocha = require('gulp-mocha');
 const pathStr1 = 'test/**/*.js';
 const pathStr2 = 'test/**/*.ts';
 
-gulp.task('watch', () => {
-  gulp.watch([ pathStr1, pathStr2, 'es/*.js', 'leetcode/*.js', 'test/**/*.test.js' ], gulp.parallel('mocha javascript', 'mocha typescript'));
-});
 
 gulp.task('mocha javascript', () => {
   return gulp.src(pathStr1, { read: false })
@@ -25,4 +21,4 @@ gulp.task('mocha typescript', () => {
     .on('error', console.error);
 });
 
-gulp.task('default', gulp.parallel('watch', 'mocha javascript', 'mocha typescript'));
+gulp.task('default', gulp.series('mocha javascript', 'mocha typescript'));

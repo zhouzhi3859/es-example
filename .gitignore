@@ -4,4 +4,6 @@ package-lock.json
 .nyc_output/
 coverage/
 reporter/
-*/**.js
+es/**.js
+test/es/**.js
+test/typescript/**.js

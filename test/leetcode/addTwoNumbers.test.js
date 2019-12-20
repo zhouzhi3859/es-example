@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const { ListNode, addTwoNumbers } = require('../../leetcode/addTwoNumbers.ts');
+const { ListNode, addTwoNumbers } = require('../../leetcode/addTwoNumbers');
 
 describe('test addTwoNumbers.ts', function() {
   it('test addTwoNumbers.ts correct not exceed 10', () => {

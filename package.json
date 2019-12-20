@@ -5,7 +5,8 @@
   "scripts": {
     "test:dev": "./node_modules/.bin/gulp",
     "lint": "eslint --ext .ts,.js .",
-    "test": "nyc --reporter lcov --check-coverage --branches 95 --functions 95 --lines 95 --statements 95 mocha --register ts-node/register --reporter mochawesome --reporter-options reportDir=reporter,reportFilename=index.html test/**/*.test.ts"
+    "test:js": "nyc --reporter lcov --check-coverage --branches 95 --functions 95 --lines 95 --statements 95 mocha --reporter mochawesome --reporter-options reportDir=reporter,reportFilename=index.html test/**/*.test.js",
+    "test": "./node_modules/.bin/gulp -f ./gulpfile-test.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,6 @@
   },
   "homepage": "https://github.com/zhouzhi3859/es-example#readme",
   "devDependencies": {
-    "@istanbuljs/nyc-config-babel": "^2.1.1",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.21",
     "@types/should": "^13.0.0",
@@ -45,7 +45,7 @@
     "lint-staged": "^9.5.0",
     "mocha": "^6.2.2",
     "mochawesome": "^4.1.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0-beta.3",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"

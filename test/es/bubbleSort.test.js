@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const bubbleSort = require('../../es/bubbleSort.ts');
+const bubbleSort = require('../../es/bubbleSort');
 
 describe('test bubbleSort.ts', function() {
   it('test bubbleSort.ts expect correct result', () => {

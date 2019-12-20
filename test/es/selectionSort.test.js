@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const selectionSort = require('../../es/selectionSort.ts');
+const selectionSort = require('../../es/selectionSort');
 
 describe('test selectionSort.ts', function() {
   it('test selectionSort.ts expect correct result', () => {

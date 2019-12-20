@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const lengthOfLongestSubstring = require('../../leetcode/lengthOfLongestSubstring.ts');
+const lengthOfLongestSubstring = require('../../leetcode/lengthOfLongestSubstring');
 
 describe('test lengthOfLongestSubstring.ts', function() {
   it('test lengthOfLongestSubstring.ts correct situation 1', () => {

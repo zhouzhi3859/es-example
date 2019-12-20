@@ -4,7 +4,8 @@
  */
 
 const expect = require('chai').expect;
-const quickSort2 = require('../../es/quickSort2.ts');
+const quickSort2 = require('../../es/quickSort2');
+
 describe('test quickSort2.ts', function() {
   it('test quickSort2.ts expect correct result', () => {
     const data = [ 7, 1, 2, 5, 3, 9, 6 ];

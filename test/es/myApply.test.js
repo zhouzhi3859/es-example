@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const myApply = require('../../es/myApply.ts');
+const myApply = require('../../es/myApply');
 
 describe('test myApply.ts', function() {
   before(() => {

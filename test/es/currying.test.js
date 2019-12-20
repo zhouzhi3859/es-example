@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const currying = require('../../es/currying.ts');
+const currying = require('../../es/currying');
 
 describe('test currying.ts', function() {
   it('test currying.ts expect correct result', () => {

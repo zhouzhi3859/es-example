@@ -4,7 +4,8 @@
  */
 
 const expect = require('chai').expect;
-const quickSort1 = require('../../es/quickSort1.ts');
+const quickSort1 = require('../../es/quickSort1');
+
 describe('test quickSort1.ts', function() {
   it('test quickSort1.ts expect correct result', () => {
     expect(JSON.stringify(quickSort1([ 7, 1, 2, 5, 3, 9, 6 ]))).to.equal(JSON.stringify([ 1, 2, 3, 5, 6, 7, 9 ]));

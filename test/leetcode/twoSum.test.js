@@ -4,7 +4,7 @@
  */
 
 const expect = require('chai').expect;
-const twoSum = require('../../leetcode/twoSum.ts');
+const twoSum = require('../../leetcode/twoSum');
 
 describe('test twoSum.ts', function() {
   it('test twoSum.ts correct', () => {
