@@ -3,23 +3,22 @@
  * @description 针对myCall.js的测试文件
  */
 
-const expect = require('chai').expect;
 const myBind = require('../../es/myBind');
 
-describe('test myBind.ts', function() {
-  before(() => {
+describe('test myBind.js', function() {
+  beforeEach(() => {
     // @ts-ignore
     Function.prototype.myBind = myBind;
     // @ts-ignore
     global.type = 1;
   });
-  after(() => {
+  afterEach(() => {
     // @ts-ignore
     delete Function.prototype.myBind;
     // @ts-ignore
     delete global.type;
   });
-  it('test myBind.ts correct', () => {
+  it('test myBind.js correct', () => {
     const obj1 = {
       value: 1,
     };
@@ -27,13 +26,13 @@ describe('test myBind.ts', function() {
       return this.value + value2;
     }
     // @ts-ignore
-    expect(test.myBind(obj1, 2)()).to.equal(3);
+    expect(test.myBind(obj1, 2)()).toBe(3);
   });
-  it('test myBind.ts withOut parameter correct', () => {
+  it('test myBind.js withOut parameter correct', () => {
     function test() {
       return this.type;
     }
     // @ts-ignore
-    expect(test.myBind()()).to.equal(1);
+    expect(test.myBind()()).toBe(1);
   });
 });

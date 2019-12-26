@@ -3,6 +3,9 @@
   "parserOptions": {
     "sourceType": "module"
   },
+  "globals": {
+    "expect": true
+  },
   "plugins": [ "@typescript-eslint" ],
   "extends": "eslint-config-egg",
   "rules":{
