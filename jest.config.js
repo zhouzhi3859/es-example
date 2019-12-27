@@ -12,6 +12,18 @@ module.exports = {
       lines: 95,
       statements: 95,
     },
+    './es/*.js': {
+      branches: 95,
+      functions: 95,
+      lines: 95,
+      statements: 95,
+    },
+    './leetcode/*.js': {
+      branches: 95,
+      functions: 95,
+      lines: 95,
+      statements: 95,
+    },
   },
   verbose: true,
 };

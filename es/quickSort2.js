@@ -20,10 +20,8 @@ function quickSort2(data, start = 0, end = data.length - 1) {
     data[ rightPtr-- ] = data[ leftPtr ];
   }
   data[ leftPtr ] = flat;
-  if (start < end) {
-    quickSort2(data, start, leftPtr - 1);
-    quickSort2(data, leftPtr + 1, end);
-  }
+  quickSort2(data, start, leftPtr - 1);
+  quickSort2(data, leftPtr + 1, end);
 }
 
 module.exports = quickSort2;
