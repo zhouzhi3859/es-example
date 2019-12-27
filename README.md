@@ -21,6 +21,7 @@ npm run test
 [实现无限柯里化测试文件](test/es/currying.test.js)
 
 [实现一个简单的Promise](es/myPromise.js) \
+[实现一个简单的Promise测试文件](test/es/myPromise.test.js)
 
 [冒泡排序](es/bubbleSort.js) \
 [冒泡排序测试文件](test/es/bubbleSort.test.js)
