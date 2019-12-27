@@ -1,5 +1,5 @@
 # es-example
-[![Build Status](https://www.travis-ci.org/zhouzhi3859/es-example.svg?branch=master)](https://www.travis-ci.org/zhouzhi3859/es-example)
+[![Build Status](https://travis-ci.org/zhouzhi3859/es-example.svg?branch=master)](https://www.travis-ci.org/zhouzhi3859/es-example)
 
 #### 测试
 ```
