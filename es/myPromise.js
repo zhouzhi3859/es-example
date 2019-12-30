@@ -21,25 +21,4 @@ class MyPromise {
 }
 
 module.exports = MyPromise;
-// const myPromise1 = new MyPromise(resolve => {
-//   setTimeout(() => {
-//     resolve(1);
-//   }, 3000);
-// });
-// myPromise1.then(res => {
-//   console.log('res', res);
-//   return 2;
-// }).then(res => {
-//   console.log('res', res);
-// });
-//
-// const myPromise2 = new MyPromise(resolve => {
-//   resolve(3);
-// });
-// myPromise2.then(res => {
-//   console.log('res', res);
-//   return 4;
-// }).then(res => {
-//   console.log('res', res);
-// });
 
