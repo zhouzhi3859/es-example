@@ -5,12 +5,11 @@ class MyPromise {
     this.nextFuncArr = [];
     func(this.onSuccess.bind(this));
   }
-  onSuccess(value) {
-    this.value = value;
+  onSuccess() {
     this.status = 'SUCCESS';
     setTimeout(() => {
-      this.nextFuncArr.forEach(val => {
-        this.value = val(this.value);
+      this.nextFuncArr.forEach(func => {
+        this.value = func(this.value);
       });
     }, 0);
   }
