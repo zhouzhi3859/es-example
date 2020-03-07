@@ -5,8 +5,8 @@
   "scripts": {
     "lint": "eslint --ext .ts,.js .",
     "dev": "jest --coverage --watchAll",
-    "test": "jest --coverage",
-    "test:travis_ci": "jest --coverage && codecov"
+    "test": "jest",
+    "test:travis_ci": "jest && codecov"
   },
   "repository": {
     "type": "git",
