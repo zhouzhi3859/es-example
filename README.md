@@ -1,6 +1,7 @@
 # es-example
 [![Build Status](https://travis-ci.org/zhouzhi3859/es-example.svg?branch=master)](https://www.travis-ci.org/zhouzhi3859/es-example)
 [![codecov](https://codecov.io/gh/zhouzhi3859/es-example/branch/master/graph/badge.svg)](https://codecov.io/gh/zhouzhi3859/es-example)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3cae2e5e72144ceb0ebf819593ff2f8)](https://www.codacy.com/manual/zhouzhi3859/es-example?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zhouzhi3859/es-example&amp;utm_campaign=Badge_Grade)
 
 #### 测试
 ```
