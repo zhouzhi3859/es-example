@@ -1,5 +1,6 @@
 # es-example
 [![Build Status](https://travis-ci.org/zhouzhi3859/es-example.svg?branch=master)](https://www.travis-ci.org/zhouzhi3859/es-example)
+[![codecov](https://codecov.io/gh/zhouzhi3859/es-example/branch/master/graph/badge.svg)](https://codecov.io/gh/zhouzhi3859/es-example)
 
 #### 测试
 ```
