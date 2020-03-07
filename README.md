@@ -39,6 +39,9 @@ npm run test
 [快速排序（挖坑）](es/quickSort2.js) \
 [快速排序（挖坑）测试文件](test/es/quickSort2.test.js)
 
+[堆排序](es/heapSort.js) \
+[堆排序测试文件](test/es/heapSort.test.js)
+
 #### leetcode算法
 [(1)两数之和(https://leetcode-cn.com/problems/two-sum)](leetcode/twoSum.js) \
 [(1)两数之和测试文件](test/leetcode/twoSum.test.js)
