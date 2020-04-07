@@ -22,6 +22,9 @@ npm run test
 [实现无限柯里化](es/currying.js) \
 [实现无限柯里化测试文件](test/es/currying.test.js)
 
+[实现一个方法decodeStr，输入一个字符串，根据约定规则输出编码结果](es/decodeStr.js) \
+[实现一个方法decodeStr，输入一个字符串，根据约定规则输出编码结果测试文件](test/es/decodeStr.test.js)
+
 [实现一个简单的Promise](es/myPromise.js) \
 [实现一个简单的Promise测试文件](test/es/myPromise.test.js)
 

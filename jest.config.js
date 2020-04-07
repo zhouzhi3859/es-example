@@ -13,7 +13,7 @@ module.exports = {
       statements: 95,
     },
     './es/*.js': {
-      branches: 95,
+      branches: 90,
       functions: 95,
       lines: 95,
       statements: 95,
