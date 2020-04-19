@@ -1,6 +1,6 @@
 function getInnerLeftAndRightIndex(resource) {
-  let left = 0;
-  let right = 0;
+  let left = -1;
+  let right = -1;
   for (let i = 0; i < resource.length; i++) {
     if (resource[ i ] === ']') {
       right = i;
@@ -21,7 +21,7 @@ function decodeStr(resource) {
     return resource;
   }
   const { left, right } = getInnerLeftAndRightIndex(resource);
-  if (left === 0 && right === 0) {
+  if (left === -1 && right === -1) {
     return resource;
   }
   // 如果之前是数字
